@@ -19,7 +19,7 @@ public class ActionFactory {
         PAGES.put("GET/authorization", new AuthorizationAction());
         PAGES.put("GET/manageItems", new ShowManageItemsPageAction());
         PAGES.put("GET/items", new ShowItemsPageAction());
-        PAGES.put("GET/changeLanguage?language", new ChangeLanguageAction());
+        PAGES.put("GET/changeLanguage", new ChangeLanguageAction());
 
         PAGES.put("POST/authorization", new LoginAction());
         PAGES.put("POST/hi", new HiAction());

@@ -1,9 +1,14 @@
 package kz.itstep;
 
-import org.w3c.dom.ls.LSOutput;
+import java.util.Scanner;
 
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("lol");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Good afternoon, " + name);
     }
 }
